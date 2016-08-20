@@ -1,0 +1,485 @@
+﻿html, body, div, header, h1, img, p, nav, ul, li, a, h2, section, aside, h3, article, h4, hr, figure, button, h5, label, input{
+    box-sizing:border-box;
+    margin:0;
+    padding:0; 
+}
+
+html {
+    border-top: 5px solid #5AB3EE; 
+}
+
+body {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6feff+50,dbebf9+100 */
+    background: #f6feff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #f6feff 50%, #dbebf9 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #f6feff 50%,#dbebf9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #f6feff 50%,#dbebf9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6feff', endColorstr='#dbebf9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border-top: 5px solid #FFFFFF;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 11px;
+    font-weight: normal; 
+}
+
+h1, h2, h3, h4, h5{
+    font-weight:normal;
+}
+
+#wrapper{
+    margin:0 auto;
+    width:990px;
+}
+
+/* ********************** HEADER ***************************** */
+
+header{
+    padding-top:25px;
+}
+
+header #logo{
+    float:left;
+}
+
+header #logo a img {
+    margin-left:20px;
+    vertical-align:middle;
+}
+
+header #logo h1{
+    color:#172630;
+    display:inline-block;
+    font-size:2em;
+    margin-left:20px;
+    text-shadow: 0 0 1px rgba(0,0,0,0.3); 
+    vertical-align:middle;
+}
+
+header #contact{
+    background:url(/Images/phone.png)no-repeat 0 5px;
+    float:right;
+    margin-top:15px;
+    padding-left:35px;
+}
+
+header #contact a{
+    color:#647179; 
+    font-size:2.5em;   
+    text-decoration:none; 
+}
+
+header #contact p:last-of-type {
+    color: #A7B2C2;
+    font-size: 1.333em;
+    line-height:5px;
+    padding-bottom: 10px;
+    text-align:right;  
+}
+
+#top-navigation{
+    background:url(/Images/background-top-navigation.png)no-repeat;
+    margin-top:20px;
+    padding-top:4px;
+    width:100%;
+}
+
+ul{
+    list-style:none;
+}
+
+ul li{
+    display:inline-block;  
+}
+
+ul li a{
+    text-decoration:none;
+}
+
+#top-navigation ul li{
+    background:#5AB3EE;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    display:inline-block;
+    padding:12px;
+    text-align:center;    
+}
+
+#top-navigation ul li:first-of-type{
+    background:white;
+    padding-top:12px;
+}
+
+#top-navigation ul li:nth-of-type(2){
+   padding-left:40px;
+   padding-right:40px;
+}
+
+#top-navigation ul li:nth-of-type(3){
+   padding-left:20px;
+   padding-right:20px;
+}
+
+
+#top-navigation ul li:nth-of-type(5){
+   padding-left:30px;
+   padding-right:30px;
+}
+
+#top-navigation ul li a{
+   color:#FFFFFF;
+   font-family:Arial;
+}
+
+#top-navigation ul li:first-of-type a{
+    color:#617B9F;    
+}
+
+#picture-slider{
+    background:url(/Images/picture-slider-background.png)no-repeat 100% center ;
+    background-size:100%;
+    background-position:center;
+    border:5px solid #FFFFFF;
+    border-radius:3px; 
+    box-shadow:0 0px 20px #D8ECF5;
+    height:100%;
+    margin-bottom:13px;
+    width:100%;
+}
+
+#picture{
+    background:rgba(255,255,255,0.7);
+    margin:55px 0 0 60px;
+    padding:20px 30px 20px 23px;  
+    width: 53.3%;
+} 
+
+#picture h2{
+    color:#6D7888;
+    font-size:2.5em;
+}
+
+#picture p{
+    color:#74808A;
+    font-family:Arial;
+    width:100%;
+}
+
+button{
+    background:#9FE31B;
+    border:none;
+    border-radius:5px;  
+    color:#FFFFFF;
+    font-size:0.917em;
+    text-decoration:none;
+}
+
+#picture button,
+section article button{
+    margin-top:10px;
+    height:20px;
+    width:50px;
+}
+
+/* ********************** MAIN SECTION ***************************** */
+
+main section{
+    background:white;
+    box-shadow: 0 0 5px #D8ECF5;
+    float:right;
+    padding:12px 0 20px 20px;
+    width:71.1%;
+}
+
+main section article{
+    float:left;
+    width:66%;
+}
+
+main section article h4{
+    color:#7A8C98;
+    font-size:1.667em;
+}
+
+main section img{
+    margin-top:15px;
+    width:100%;
+}
+
+main section article p{
+    color:#81909A;
+    font-family:Arial;
+    line-height:15px;
+    margin-top:20px;
+    width:100%;
+}
+
+main section article button{
+    margin-top:24px;
+}
+
+main section aside{
+    background:#ECF4F7;
+    float:right;
+    margin-right:10px;
+    padding:10px;
+    padding-bottom:20px;
+}
+
+main section aside h5{
+    color:#7A8C98;
+    font-size:1.667em;
+}
+
+main section aside label{
+    color:#516A79;  
+    display:block;
+    margin-top:8px;
+    width:80%;
+}
+
+main section label:first-of-type{
+    margin-top:15px;
+}
+
+main section aside input {   
+    border:1px solid #D1DFE4;
+    height: 27px;
+    margin-top:10px;
+    width: 90%;   
+}
+
+main section aside #input-questions{
+    height:135px;
+}
+
+main section aside button{
+    margin-top:10px;
+    height:20px;
+    width:60px;
+}
+
+
+/* ********************** MAIN ASIDE ***************************** */
+
+aside{
+    background:#FFFFFF;
+    border-radius:5px;
+    box-shadow: 0 0 5px #D8ECF5;
+    float:left;
+    padding-bottom:15px;
+    width:27.2%;
+}
+
+aside h3{
+    color:#7A8C98;
+    font-size:1.667em; 
+    padding:20px 0 0 13px;
+}
+
+aside ul{
+    background:#172630;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    box-sizing:border-box;
+    margin-top:15px;
+    padding:24px 24px 24px 20px;
+}
+
+aside ul li{
+    background:url(/Images/white-bullet.png)no-repeat 0 3px;
+    padding:0 0 13px 20px;   
+}
+
+aside ul li:first-of-type {
+    background: url(/Images/green-bullet.png)no-repeat 0 3px;
+    padding-left: 20px;
+}
+
+aside ul li:last-of-type{
+    padding-bottom:0;
+}
+
+hr{
+    color:#364956;
+    margin-top:5px;  
+}
+
+aside ul li a{
+    color:#FFFFFF;
+    font-family:Arial;
+    padding-bottom:3px;
+}
+
+aside ul li:first-of-type a {
+    color: #8BDE15;
+}
+
+aside ul li:nth-of-type(7) a {
+    padding-top:10px;
+}
+
+/* ********************** FOOTER ***************************** */
+
+footer {
+    background:url(/Images/footer-background.png);
+    border-bottom: 12px solid #C2D9EB;
+    margin: -20px 0 0 0px;
+    padding-top:50px;
+    padding-bottom:10px;
+    text-align: center;
+    width: 100%;
+}
+
+footer nav{
+    text-align:center;
+}
+
+#footer-navigation ul li {
+    border-right:1px solid #899EAE;
+    padding-right:5px;
+}
+
+#footer-navigation ul li a {
+    color: #899EAE;
+}
+
+#footer-navigation ul li:nth-of-type(7){
+    border-right:0;
+}
+
+#footer-navigation ul li:last-of-type{
+    display:block;
+    border-right:0;
+}
+
+footer p{
+    color:#899EAE;
+    font-size:0.917em;
+    margin-top:20px; 
+    text-align:center;
+}
+
+.clearfix{
+    clear:both;
+}
+
+
+@media screen and (max-width:1375px){
+    html{
+        width:100%;
+    }
+
+    #wrapper{
+        width:70.5%;
+    }
+
+    footer{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:960px){
+    #wrapper{
+        width:90%;
+    }
+}
+
+@media screen and (max-width:720px){
+    #wrapper {
+        width:95%;
+    }
+
+    #top-navigation {
+       background:none;
+    } 
+
+    #wrapper  #top-navigation li{
+        display:block;
+    }
+    
+    #wrapper #top-navigation li:first-of-type{
+        display:block;
+    }
+
+    #top-navigation ul li{
+       border-top-left-radius:0;
+       border-top-right-radius:0;
+    }
+
+   main section{
+        float:none;
+        width:100%;
+    }   
+   
+   #service{
+       width:100%;
+    }
+
+   #service ul li{    
+       width:40%;
+    }
+
+   footer{
+       font-size:1.2em;
+       text-align:center;
+       width:100%;
+   }
+
+    footer nav{
+       text-align:center;
+   }
+
+   #footer-navigation ul li {
+       border-right:none;
+       display:block;
+   }
+
+   footer nav ul li a{
+       border:none;
+   }
+}
+
+@media screen and (max-width:560px) {
+
+    #wrapper header {
+        text-align: center;
+    }
+    
+    header #logo {
+        display: block;
+        float: none;
+        width: 100%;
+    }  
+     
+    #wrapper header #contact {
+        background: none;
+        display: block;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+     #wrapper header #contact p {
+        text-align: center;
+     }
+
+     #picture-slider #picture{
+        margin:25px 25px;
+        padding:0;
+        text-align:center;
+        width:70%;
+        height:100%;
+    }
+
+      #wrapper #service ul li {
+        width: 100%;
+    }  
+
+     main section article {
+        width: 100%;
+    }
+
+     main section aside {
+        width: 100%; 
+        margin-top: 20px;
+    }
+}
